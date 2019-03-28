@@ -18,7 +18,7 @@ var nowServing = function(katzDeliLine) {
 }
 
 // currentLine accepts current line of people and returns string
-var currentLine = function() {
+var currentLine = function(katzDeliLine) {
   var thisLine = []
   for (var i = 0; i < katzDeliLine.length; i++) {
     thisLine.push(` ${i + 1}. ${katzDeliLine[i]}`)
