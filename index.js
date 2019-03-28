@@ -5,11 +5,6 @@ var takeANumber = function(katzDeliLine, newCustomer) {
 }
 // nowServing announces customer, removes them from array, returns message if empty
 var nowServing = function(katzDeliLine) {
-  var i = 0
-
-  while (i < katzDeliLine.length) {
-    i++
-  }
   if (katzDeliLine.length === 0) {
     return `There is nobody waiting to be served!`
   } else {
